@@ -25,5 +25,9 @@ function createWidget(data) {
     return widget;
 }
 
+const data = "test";
+
+const widget = createWidget(data);
+
 Script.setWidget(widget);
 Script.complete();
